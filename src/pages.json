@@ -1,0 +1,103 @@
+{
+
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/tool/tool",
+			"style": {
+				"navigationBarTitleText": "剧本列表"
+			}
+		},
+		{
+			"path": "pages/tool/toolitem",
+			"style": {
+				"navigationBarTitleText": "预约剧本"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "组局车队"
+			}
+		},
+		{
+			"path": "pages/sortt/sortt",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "剧本详情"
+			}
+		},
+		{
+			"path": "pages/buy/buy",
+			"style": {
+				"navigationBarTitleText": "买单"
+			}
+		},
+		{
+			"path": "pages/quant/quant",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/xiangwan/xiangwan",
+			"style": {
+				"navigationBarTitleText": "我的想玩"
+			}
+		},
+		{
+			"path": "pages/myyuyue/myyuyue",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+			"path": "pages/tool/yuyuesuccess",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"selectedColor": "red",
+		"color": "#ccc",
+		"list": [
+			{
+				"text": "案发现场",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/首页.png"
+			},
+			{
+				"text": "个人档案室",
+				"pagePath": "pages/center/center",
+				"iconPath": "static/img/tabbar/2_个人 (1).png",
+				"selectedIconPath": "static/img/tabbar/2_个人.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8"
+
+	}
+}

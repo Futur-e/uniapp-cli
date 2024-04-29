@@ -6,10 +6,6 @@ export const config = {
 	// 请求域名 格式： https://请求域名
 	// HTTP_REQUEST_URL: '/dpc',
 	HTTP_REQUEST_URL: "http://localhost:9090",
-
-
-
-
 	HEADER: {
 		'content-type': 'application/json',
 	},

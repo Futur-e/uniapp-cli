@@ -12,7 +12,12 @@ export default {
 }
 </script>
 
-<style>
+<style >
+
+/deep/ .uv-button{
+  flex: none;
+  width: auto;
+}
 /*每个页面公共css */
 .flex-row{
   display: flex;

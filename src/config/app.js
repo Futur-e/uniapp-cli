@@ -5,7 +5,7 @@ export const config = {
 	// 小程序配置 APP可以进行单独配置
 	// 请求域名 格式： https://请求域名
 	// HTTP_REQUEST_URL: '/dpc',
-	HTTP_REQUEST_URL: "https://a.cdddy.cn",
+	HTTP_REQUEST_URL: "http://localhost:9090",
 
 
 
